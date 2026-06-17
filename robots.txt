@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tjrdn978702-ctrl.github.io/MESSE/sitemap.xml
