@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MESSE | 인천·부천 최대 규모 프리미엄 셔츠룸</title>
+  <meta name="description" content="MESSE는 인천·부천 최대 규모 프리미엄 셔츠룸, 하이퍼블릭 상담 안내 페이지입니다. 20대 고정 50명 출근, 룸 30개 보유, 빠른 예약 문의 010-6868-5445." />
+  <meta name="keywords" content="MESSE, 메쎄, 인천 셔츠룸, 부천 셔츠룸, 인천 하이퍼블릭, 부천 하이퍼블릭, 부천 최대 규모, 20대 고정 50명 출근, 룸 30개, 여대생, 인플루언서, 항공과" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tjrdn978702-ctrl.github.io/MESSE/" />
+  <meta property="og:title" content="MESSE | 인천·부천 최대 규모 프리미엄 셔츠룸" />
+  <meta property="og:description" content="20대 고정 50명 출근, 룸 30개 보유, 예약 문의 010-6868-5445." />
+  <meta property="og:image" content="messe_gallery_banner.png" />
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#050403;color:#fff;font-family:'Noto Sans KR',Arial,sans-serif;line-height:1.65}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1180px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:100;background:rgba(5,4,3,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(214,169,91,.28)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .logo{font-family:Georgia,serif;font-size:36px;font-weight:900;letter-spacing:2px;color:#e0b56d}
+    .navlinks{display:flex;gap:26px;font-size:15px;font-weight:800;color:#f2e4cc}
+    .topbtn{padding:10px 17px;border:1px solid #d6a95b;border-radius:8px;color:#f0c36f;font-weight:900}
+    .hero{min-height:640px;background:radial-gradient(circle at 80% 30%,rgba(214,169,91,.22),transparent 28%),linear-gradient(90deg,#040302 0%,#090604 48%,#21160d 100%);border-bottom:1px solid rgba(214,169,91,.3)}
+    .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:34px;min-height:640px}
+    .eyebrow{font-size:25px;margin-bottom:10px}
+    h1{font-family:Georgia,serif;font-size:clamp(76px,12vw,140px);line-height:.92;margin:0;color:#d6a95b;letter-spacing:5px}
+    .hero h2{font-size:clamp(23px,3vw,35px);margin:20px 0 8px}
+    .hero p{font-size:22px;color:#eadbc4;margin:0 0 30px}
+    .icons{display:grid;grid-template-columns:repeat(4,1fr);margin:34px 0;border-top:1px solid rgba(214,169,91,.35);border-bottom:1px solid rgba(214,169,91,.35)}
+    .iconbox{text-align:center;padding:18px 12px;border-right:1px solid rgba(214,169,91,.25)}
+    .iconbox:last-child{border-right:none}
+    .icon{font-size:33px;color:#d6a95b}
+    .iconbox b{display:block;color:#fff;margin-top:7px}
+    .iconbox span{font-size:13px;color:#d9c7aa}
+    .cta{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{padding:15px 24px;border-radius:8px;font-weight:950;font-size:18px}
+    .gold{background:#d6a95b;color:#070604}
+    .outline{border:1px solid #d6a95b;color:#efc473;background:rgba(0,0,0,.28)}
+    .model-card{height:500px;border-radius:26px;overflow:hidden;border:1px solid rgba(214,169,91,.35);box-shadow:0 28px 90px rgba(0,0,0,.55);background:linear-gradient(140deg,#1b120c,#0b0806);position:relative}
+    .model-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 54% 22%,#f1cbb0 0 8%,transparent 9%),radial-gradient(circle at 53% 19%,#21100c 0 14%,transparent 15%),linear-gradient(110deg,transparent 0 34%,rgba(255,240,220,.92) 35% 58%,transparent 59%),radial-gradient(circle at 62% 72%,rgba(214,169,91,.35),transparent 34%)}
+    .model-card:after{content:"";position:absolute;left:18%;bottom:-14%;width:70%;height:68%;background:linear-gradient(150deg,#fff7ef,#c9a07b);border-radius:54% 46% 0 0;transform:rotate(-7deg);opacity:.9}
+    .model-label{position:absolute;left:22px;bottom:22px;background:rgba(0,0,0,.48);border:1px solid rgba(214,169,91,.45);color:#f0c36f;padding:9px 13px;border-radius:999px;font-weight:900;z-index:3}
+    #gallery{background:#000;padding:46px 0;border-bottom:1px solid rgba(214,169,91,.35)}
+    #gallery img{width:100%;display:block;border:1px solid #d6a95b;border-radius:10px;box-shadow:0 24px 80px rgba(0,0,0,.55)}
+    .blackband{background:#090909;border-bottom:1px solid rgba(214,169,91,.25)}
+    .bigstats{display:grid;grid-template-columns:1.6fr repeat(4,1fr);align-items:center}
+    .bigstats>div{padding:32px 24px;border-right:1px solid rgba(214,169,91,.25)}
+    .bigstats>div:last-child{border-right:none}
+    .bigstats h2{font-size:36px;margin:0}
+    .bigstats p{margin:6px 0 0;color:#dfd4c4}
+    .bigstats b{font-size:42px;color:#d6a95b;display:block;line-height:1}
+    section{padding:76px 0}
+    .light{background:#eee6da;color:#111}
+    .title{text-align:center;margin-bottom:36px}
+    .title h2{font-size:42px;margin:0 0 10px}
+    .title p{max-width:780px;margin:0 auto;opacity:.75}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{padding:30px;border-radius:14px;background:#fff;border:1px solid #d2bf9e;color:#111}
+    .card.dark{background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(214,169,91,.25)}
+    .card h3{margin:0 0 12px;color:#9b7034;font-size:25px}
+    .card.dark h3{color:#d6a95b}
+    .card p{margin:0;color:#3b3329}
+    .card.dark p{color:#e7dbc7}
+    .keywords{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+    .keywords span{border:1px solid #d6a95b;color:#f0c36f;border-radius:999px;padding:10px 14px;font-weight:900;background:rgba(214,169,91,.08)}
+    .faqsection{background:linear-gradient(90deg,#eee6da 0%,#eee6da 72%,#302015 100%);color:#111}
+    .faq{display:grid;grid-template-columns:1fr 1fr;gap:13px;max-width:880px}
+    details{background:rgba(255,255,255,.8);border:1px solid #d2c3aa;border-radius:8px;padding:15px 18px}
+    summary{font-weight:900;cursor:pointer}
+    details p{margin:10px 0 0;color:#40362c}
+    footer{background:#070604;border-top:1px solid rgba(214,169,91,.3);padding:34px 0 90px;color:#d6c7ad}
+    .fixed{position:fixed;left:0;right:0;bottom:0;background:#d6a95b;color:#070604;text-align:center;padding:16px;font-size:22px;font-weight:950;z-index:200}
+    @media(max-width:900px){
+      .navlinks{display:none}
+      .hero .wrap{grid-template-columns:1fr;padding:54px 0}
+      .icons,.cards,.bigstats,.faq{grid-template-columns:1fr}
+      .iconbox,.bigstats>div{border-right:none;border-bottom:1px solid rgba(214,169,91,.25)}
+      .model-card{height:390px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="logo">MESSE</div>
+    <nav class="navlinks">
+      <a href="#about">MESSE 소개</a>
+      <a href="#guide">이용 안내</a>
+      <a href="#gallery">갤러리</a>
+      <a href="#system">시설 안내</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="topbtn" href="tel:01068685445">예약/문의 하기</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">인천·부천 최대 규모 프리미엄 셔츠룸</div>
+      <h1>MESSE</h1>
+      <h2>여대생 · 인플루언서 · 항공과 20대 고정</h2>
+      <p>50명 출근 ㅣ 룸 30개 보유 ㅣ 인천·부천 최대 규모</p>
+      <div class="icons">
+        <div class="iconbox"><div class="icon">◇</div><b>최고급 시설</b><span>프라이빗한 공간</span></div>
+        <div class="iconbox"><div class="icon">♛</div><b>20대 고정 출근</b><span>여대생 · 인플루언서 · 항공과</span></div>
+        <div class="iconbox"><div class="icon">✓</div><b>철저한 안내</b><span>방문 전 상담 가능</span></div>
+        <div class="iconbox"><div class="icon">☎</div><b>예약제 운영</b><span>편리한 문의 시스템</span></div>
+      </div>
+      <div class="cta">
+        <a class="btn gold" href="tel:01068685445">빠른 예약 및 문의 010-6868-5445</a>
+        <a class="btn outline" href="#faq">FAQ 보기</a>
+      </div>
+    </div>
+    <div class="model-card"><div class="model-label">PREMIUM ONE-PIECE MOOD</div></div>
+  </div>
+</section>
+
+<div id="gallery">
+  <div class="wrap">
+    <img src="messe_gallery_banner.png" alt="MESSE Gallery 프리미엄 갤러리">
+  </div>
+</div>
+
+<div class="blackband">
+  <div class="wrap bigstats">
+    <div><h2>인천 · 부천 최대 규모</h2><p>고급 시설과 빠른 예약 상담으로 모십니다.</p></div>
+    <div><b>50명</b><span>20대 고정 출근</span></div>
+    <div><b>30개</b><span>프라이빗 룸 보유</span></div>
+    <div><b>100%</b><span>예약제 운영</span></div>
+    <div><b>최대</b><span>규모 & 시설</span></div>
+  </div>
+</div>
+
+<section id="about" class="light">
+  <div class="wrap">
+    <div class="title"><h2>MESSE 소개</h2><p>인천·부천을 대표하는 프리미엄 셔츠룸, 하이퍼블릭 상담 안내 페이지입니다.</p></div>
+    <div class="cards">
+      <div class="card"><h3>프리미엄 공간</h3><p>고급스러운 분위기와 프라이빗한 룸 구성을 중심으로 편안한 상담을 제공합니다.</p></div>
+      <div class="card"><h3>20대 고정 출근</h3><p>여대생, 인플루언서, 항공과 등 다양한 분위기의 20대 고정 출근 정보를 안내합니다.</p></div>
+      <div class="card"><h3>인천·부천 중심</h3><p>부천과 인천 지역에서 접근성 좋은 프리미엄 공간을 찾는 고객에게 적합합니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="guide">
+  <div class="wrap">
+    <div class="title"><h2>이용 안내</h2><p>방문 전 전화 문의를 통해 룸 상황, 출근 라인업, 예약 가능 여부를 확인하세요.</p></div>
+    <div class="cards">
+      <div class="card dark"><h3>1. 전화 문의</h3><p>010-6868-5445로 연락 주시면 현재 가능한 상담 정보를 안내합니다.</p></div>
+      <div class="card dark"><h3>2. 예약 확인</h3><p>시간, 인원, 원하는 분위기를 기준으로 예약 가능 여부를 확인합니다.</p></div>
+      <div class="card dark"><h3>3. 방문 안내</h3><p>상담 후 자세한 안내를 전달해드립니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="system" class="light">
+  <div class="wrap">
+    <div class="title"><h2>검색 키워드 및 핵심 정보</h2><p>구글 색인을 돕기 위해 자연스러운 지역형 SEO 문구를 포함했습니다.</p></div>
+    <div class="keywords">
+      <span>부천 셔츠룸</span><span>인천 셔츠룸</span><span>부천 하이퍼블릭</span><span>인천 하이퍼블릭</span>
+      <span>MESSE</span><span>메쎄</span><span>룸 30개</span><span>20대 고정 50명 출근</span><span>인천·부천 최대 규모</span>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faqsection">
+  <div class="wrap">
+    <div class="title" style="text-align:left"><h2>자주 묻는 질문 FAQ</h2><p>예약 전 많이 묻는 내용을 정리했습니다.</p></div>
+    <div class="faq">
+      <details open><summary>예약은 어떻게 하나요?</summary><p>전화 버튼을 누르거나 010-6868-5445로 연락 주시면 됩니다.</p></details>
+      <details><summary>당일 예약도 가능한가요?</summary><p>당일 룸 상황과 출근 상황에 따라 안내 가능합니다.</p></details>
+      <details><summary>몇 명까지 이용 가능한가요?</summary><p>인원과 시간에 따라 상담 후 안내드립니다.</p></details>
+      <details><summary>출근 시간은 언제인가요?</summary><p>20대 고정 출근 라인업은 당일 상황에 따라 변동될 수 있습니다.</p></details>
+      <details><summary>룸은 몇 개 있나요?</summary><p>룸 30개 보유를 기준으로 프라이빗 공간 상담이 가능합니다.</p></details>
+      <details><summary>단체 예약도 가능한가요?</summary><p>인원과 시간에 따라 단체 예약 상담이 가능합니다.</p></details>
+      <details><summary>인천에서도 문의 가능한가요?</summary><p>인천·부천 지역 고객을 중심으로 상담 안내합니다.</p></details>
+      <details><summary>위치는 어디인가요?</summary><p>자세한 위치는 예약 및 문의 시 안내드립니다.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <h2 style="margin:0 0 8px;color:#d6a95b;font-family:Georgia,serif">MESSE</h2>
+    <p>인천·부천 최대 규모 프리미엄 셔츠룸 ㅣ 20대 고정 50명 출근 ㅣ 룸 30개 보유</p>
+    <p>예약/문의 : 010-6868-5445</p>
+  </div>
+</footer>
+<a class="fixed" href="tel:01068685445">MESSE 예약문의 010-6868-5445</a>
+</body>
+</html>
